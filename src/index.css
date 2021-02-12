@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +15,185 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#whatsapp-icon a i {
+  font-size: 1.7em;
+  width: 45px ;
+  height: 45px ;
+  color: white ;
+  position: fixed;
+  border-radius: 50% ;
+  bottom: 15px ;
+  right: 15px ;
+  cursor: pointer;
+  z-index: 1;
+}
+
+nav{
+  font-size: 0.8em;
+}
+
+#header h6{
+  font-size: 0.8em;
+}
+
+#header i, #post-header i{
+  color: #c54cbb;
+}
+
+.width {
+  width: 100px !important; }
+
+/* #inicio {
+  background: url(../img/fondovintage.png);
+  background-repeat: no-repeat;
+  background-size: cover;} */
+
+.jumbotron {
+  width: 100%;
+  height: 700px;
+  background: rgba(0, 0, 0, 0.7);
+  color: #ffffff;
+  padding-top: 400px; }
+
+#llamado-accion {
+  background: #c54cbb; }
+
+#footer {
+  background: #c54cbb; }
+
+/* ----- Ofertas ----- */
+#promoinfo{
+  text-align: center;
+  position: relative;
+  color: #ffffff;
+  text-shadow: 0 0 10px black;
+  transition: 0.4s;
+  bottom: 70px;
+}
+
+#promoinfo h5, #promoinfo h6{
+    opacity: 0;
+}
+
+#promociones img {
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.7); }
+
+#promociones .promo-hover{
+  transition: 0.3s;
+}
+
+#promociones .promo-hover:hover{
+    transform: scale(1.04);
+}
+
+#promociones .promo-hover:hover #promoinfo{
+  transform: scale(1.04);
+  bottom: 50%; }
+
+#promociones .promo-hover:hover h5, #promociones .promo-hover:hover h6{
+  opacity: 1; }
+
+  @media (max-width: 991px){
+      #promoinfo{
+          bottom: 50%;
+      }
+
+      #promoinfo h5, #promoinfo h6{
+          opacity: 1;
+      }
+
+      #separador-envios h4, #separador-envios p{
+        font-size: 1em;
+      }
+  }
+
+/* ----- Ofertas ----- fin */
+
+
+/* ----- Redes sociales ----- */
+.social{
+  transition: 0.2s;
+}
+
+.social:hover{
+  transform: scale(1.4);
+}
+/* ----- Redes sociales ----- fin */
+
+
+/* ----- NavBar ----- */
+nav ul li{
+  text-transform: uppercase;
+}
+
+nav ul li a{
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  color: black !important;
+}
+
+nav ul li a:hover{
+  color: #c54cbb !important;
+  border-top: 1px solid #c54cbb;
+  border-bottom: 1px solid #c54cbb;
+}
+/* ----- NavBar ----- fin */
+
+
+/* ----- Informacion ----- */
+#informacion p{
+  font-size: 0.9em
+}
+/* ----- Informacion ----- fin*/
+
+
+
+
+
+/* -------- Productos -------- */
+
+#ads, nav {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#ads img{
+  height: 222px; /* max-height or height */
+}
+
+.card-image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+  border-color: #fff;
+}
+
+#ads .card:hover {
+  background: #fff;
+  box-shadow: 12px 15px 20px 0px rgba(46,61,73,0.15);
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.borde-wetecno{
+  border: 1px solid #c54cbb;
+  border-radius: 2px;
+}
+
+.color-wetecno{
+  color: #c54cbb;
+}
+
+.text-small{
+  font-size: 0.6em;
+}
+
+.btn-wetecno{
+  background-color: #c54cbb;
+  color: #fff;
+}
+
+/* -------- Productos -------- fin */
